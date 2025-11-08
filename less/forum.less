@@ -1,0 +1,30 @@
+.LockProfile {
+  &-disabled {
+    opacity: 0.5;
+    cursor: not-allowed !important;
+    pointer-events: none;
+  }
+  
+  &-message {
+    padding: 10px;
+    background: #f39c12;
+    color: white;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+}
+
+// Hide avatar editor for non-admin users
+body:not(.admin) .AvatarEditor {
+  display: none !important;
+}
+
+// Style disabled profile fields
+.SettingsPage {
+  input[disabled],
+  textarea[disabled] {
+    background-color: #f5f5f5;
+    cursor: not-allowed;
+  }
+}

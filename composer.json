@@ -1,0 +1,37 @@
+{
+    "name": "aditya-wiguna/flarum-lock-profile",
+    "description": "Prevents users from editing their profile information including name, username, email, and profile picture",
+    "keywords": [
+        "flarum",
+        "profile",
+        "lock",
+        "security"
+    ],
+    "type": "flarum-extension",
+    "license": "MIT",
+    "require": {
+        "flarum/core": "^1.2.0"
+    },
+    "authors": [
+        {
+            "name": "I Wayan Aditya Wiguna",
+            "email": "gmail@adityawiguna.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "YourVendor\\LockProfile\\": "src/"
+        }
+    },
+    "extra": {
+        "flarum-extension": {
+            "title": "Lock Profile",
+            "category": "feature",
+            "icon": {
+                "name": "fas fa-lock",
+                "backgroundColor": "#e74c3c",
+                "color": "#fff"
+            }
+        }
+    }
+}

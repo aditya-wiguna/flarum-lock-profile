@@ -1,0 +1,9 @@
+yourvendor-lock-profile:
+  admin:
+    info_label: |
+      This extension prevents all users (except admins) from editing their profile information.
+      Locked fields include: username, email, bio, and profile picture.
+  
+  forum:
+    profile_locked: "Profile editing is disabled by the administrator."
+    cannot_edit: "You are not allowed to edit your profile information."

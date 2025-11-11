@@ -18,14 +18,14 @@ cd /path/to/your/flarum/extensions
 
 2. **Create the extension directory:**
 ```bash
-mkdir -p yourvendor-flarum-lock-profile
+mkdir -p aditya-wiguna-flarum-lock-profile
 ```
 
 3. **Copy all extension files to this directory**
 
 4. **Install PHP dependencies:**
 ```bash
-cd yourvendor-flarum-lock-profile
+cd aditya-wiguna-flarum-lock-profile
 composer install --no-dev
 ```
 
@@ -45,13 +45,13 @@ npm run build
 1. **Add to your Flarum installation:**
 ```bash
 cd /path/to/your/flarum
-composer require yourvendor/flarum-lock-profile
+composer require aditya-wiguna/flarum-lock-profile
 ```
 
 2. **Enable via admin panel or CLI:**
 ```bash
 php flarum cache:clear
-php flarum extension:enable yourvendor-flarum-lock-profile
+php flarum extension:enable aditya-wiguna-flarum-lock-profile
 ```
 
 ## Customization Before Installation
@@ -61,17 +61,17 @@ php flarum extension:enable yourvendor-flarum-lock-profile
 Before installing, you should customize the vendor name:
 
 1. **Update composer.json:**
-   - Change `yourvendor/flarum-lock-profile` to `your-vendor/flarum-lock-profile`
+   - Change `aditya-wiguna/flarum-lock-profile` to `your-vendor/flarum-lock-profile`
    - Update the namespace in autoload section
 
 2. **Update namespace in all PHP files:**
-   - Replace `YourVendor\LockProfile` with `YourActualVendor\LockProfile`
+   - Replace `AdityaWiguna\LockProfile` with `YourActualVendor\LockProfile`
 
 3. **Update package.json:**
-   - Change `@yourvendor/flarum-lock-profile` to `@your-vendor/flarum-lock-profile`
+   - Change `@aditya-wiguna/flarum-lock-profile` to `@your-vendor/flarum-lock-profile`
 
 4. **Update locale file:**
-   - Rename the key from `yourvendor-lock-profile` to `your-vendor-lock-profile`
+   - Rename the key from `aditya-wiguna-lock-profile` to `your-vendor-lock-profile`
 
 5. **Update extend.php if needed**
 
@@ -111,7 +111,7 @@ composer dump-autoload
 
 1. Rebuild assets:
 ```bash
-cd extensions/yourvendor-flarum-lock-profile
+cd extensions/aditya-wiguna-flarum-lock-profile
 npm run build
 ```
 
@@ -131,24 +131,24 @@ php flarum cache:clear
 
 Ensure the extension files have correct permissions:
 ```bash
-chmod -R 755 extensions/yourvendor-flarum-lock-profile
-chown -R www-data:www-data extensions/yourvendor-flarum-lock-profile
+chmod -R 755 extensions/aditya-wiguna-flarum-lock-profile
+chown -R www-data:www-data extensions/aditya-wiguna-flarum-lock-profile
 ```
 
 ## Uninstallation
 
 1. **Disable the extension:**
    - Via admin panel: Extensions > Lock Profile > Disable
-   - Or via CLI: `php flarum extension:disable yourvendor-flarum-lock-profile`
+   - Or via CLI: `php flarum extension:disable aditya-wiguna-flarum-lock-profile`
 
 2. **Remove via Composer (if installed via Composer):**
 ```bash
-composer remove yourvendor/flarum-lock-profile
+composer remove aditya-wiguna/flarum-lock-profile
 ```
 
 3. **Or manually delete:**
 ```bash
-rm -rf extensions/yourvendor-flarum-lock-profile
+rm -rf extensions/aditya-wiguna-flarum-lock-profile
 ```
 
 4. **Clear cache:**
@@ -161,7 +161,7 @@ php flarum cache:clear
 For development with auto-rebuild:
 
 ```bash
-cd extensions/yourvendor-flarum-lock-profile
+cd extensions/aditya-wiguna-flarum-lock-profile
 npm run dev
 ```
 

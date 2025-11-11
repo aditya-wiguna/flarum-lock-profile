@@ -1,4 +1,4 @@
-yourvendor-lock-profile:
+aditya-wiguna-lock-profile:
   admin:
     info_label: |
       This extension prevents all users (except admins) from editing their profile information.

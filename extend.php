@@ -1,15 +1,15 @@
 <?php
 
 /*
- * This file is part of yourvendor/flarum-lock-profile.
+ * This file is part of aditya-wiguna/flarum-lock-profile.
  *
- * Copyright (c) 2025 Your Name.
+ * Copyright (c) 2025 Aditya Wiguna.
  *
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
 
-namespace YourVendor\LockProfile;
+namespace AdityaWiguna\LockProfile;
 
 use Flarum\Extend;
 use Flarum\User\Event\Saving;

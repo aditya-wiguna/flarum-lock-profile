@@ -18,10 +18,10 @@ A Flarum extension that prevents users from editing their profile information, i
 ### Manual Installation
 
 1. Download this extension
-2. Extract it to your Flarum `extensions` directory: `extensions/yourvendor-flarum-lock-profile`
+2. Extract it to your Flarum `extensions` directory: `extensions/aditya-wiguna-flarum-lock-profile`
 3. Install dependencies:
 ```bash
-cd extensions/yourvendor-flarum-lock-profile
+cd extensions/aditya-wiguna-flarum-lock-profile
 composer install --no-dev
 npm install
 npm run build
@@ -31,7 +31,7 @@ npm run build
 ### Via Composer (if published)
 
 ```bash
-composer require yourvendor/flarum-lock-profile
+composer require aditya-wiguna/flarum-lock-profile
 ```
 
 ## Usage
@@ -72,8 +72,8 @@ $lockedFields = ['username', 'email', 'bio', 'avatarUrl'];
 ### Change Vendor Name
 
 Replace all instances of:
-- `yourvendor` with your vendor name
-- `YourVendor` with your capitalized vendor name
+- `aditya-wiguna` with your vendor name
+- `AdityaWiguna` with your capitalized vendor name
 - Update `composer.json` and `package.json` accordingly
 
 ### Styling
